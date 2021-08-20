@@ -2,6 +2,12 @@ const minimist = require('./node_modules/minimist');
 const platform = require('./node_modules/platform');
 const nightmare = require('./node_modules/nightmare');
 
+const CronJob = require('cron').CronJob;
+
+// var app = require('express')();
+
+const job = new CronJob('*/1 * * * *', function() {
+
 let args = minimist(process.argv.slice(2), {
 	alias: {
 		ur : 'url',
@@ -221,3 +227,6 @@ const venenoTrafficBot = async id => {
 for (var i = 0; i < args.windows; i++) {
 	venenoTrafficBot(i).then(a => console.dir(a)).catch(e => console.error(e));
 }
+
+}, null, true, 'Asia/Bangkok');
+job.start();
