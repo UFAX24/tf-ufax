@@ -1,0 +1,11 @@
+Now checking 0
+OS: Windows
+Proxy:  
+Browser:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36
+Url:  https://ufatop1.net/?utm_source=Quora&utm_medium=cpc&utm_campaign=&utm_term=พนันออนไลน์
+Width:  800
+Height:  600
+Miliseconds per page: 2000
+Layout: Blink
+result: undefined
+undefined
