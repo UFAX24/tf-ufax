@@ -1,5 +1,5 @@
 ## UFAX TRAFFIC BOT (With rotating Tor Proxy Server)
-
+## heroku ## ps:scale worker=1
 xvfb-run --auto-servernum --server-num=1 --server-args="-screen 0 1024x768x24" node --harmony index.js --url https://ufatop1.net/ --windows 1 --time 2 --referrals yes
 
 ## Prerequisites
